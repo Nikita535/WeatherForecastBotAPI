@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot import types
 
-bot = telebot.TeleBot("1587462822:AAEXWuWScN9WUlhD4VAe_ezTCaDzBZgfuZM")
+bot = telebot.TeleBot("ваш токен")
 
 response = requests.get("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5").json()
 
